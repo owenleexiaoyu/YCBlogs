@@ -5,15 +5,17 @@
 - 03.开源项目推荐
 - 04.bug分析大汇总
 - 05.技术问题整理
-- 06.算法
+- 06.数据与算法
 - 07.Python学习笔记
-- 08.Go学习笔记
+- 08.Kotlin学习笔记
 - 09.生活博客汇总
-- 10.喜马拉雅汇总
+- 10.设计模式笔记
 - 11.知识问答汇总
 - 12.Flutter博客汇总
 - 13.网络协议汇总
-- 14.关于其他介绍
+- 14.Go学习笔记
+- 15.关于其他介绍
+
 
 
 
@@ -30,46 +32,52 @@
 
 
 
+
 ### [01.Java博客大汇总](https://github.com/yangchong211/YCBlogs/blob/master/blog/01.Java%E5%8D%9A%E5%AE%A2%E5%A4%A7%E6%B1%87%E6%80%BB.md)
 - 01.Java基础[30篇]
 - 02.面向对象[15篇]
-- 03.数据结构[9篇]
+- 03.数据结构[27篇]
 - 04.IO流知识[11篇]
-- 05.Java多线程[17篇]
-- 06.虚拟机[5篇]
+- 05.线程进程[9篇]
+- 06.虚拟机[12篇]
 - 07.类的加载[7篇]
-- 08.反射原理[12篇]
-- 09.性能优化[4篇]
+- 08.反射原理[16篇]
+- 09.Java并发[27篇]
 - 10.Java异常[11篇]
-- 11.枚举与注解[1篇]
+- 11.枚举与注解[10篇]
 - 12.设计模式[8篇]
-- 13.Java深入[2篇]
+- 13.Java深入[8篇]
 - **阅读更多请点击：[Java博客汇总](https://github.com/yangchong211/YCBlogs/blob/master/blog/01.Java%E5%8D%9A%E5%AE%A2%E5%A4%A7%E6%B1%87%E6%80%BB.md)**
 
 
 
 ### [02.Android博客大汇总](https://github.com/yangchong211/YCBlogs/blob/master/blog/02.Android%E5%8D%9A%E5%AE%A2%E5%A4%A7%E6%B1%87%E6%80%BB.md)
 - 01.基础组件(9篇)
-- 02.IPC机制(0篇)
-- 03.View原理(7篇)
+- 02.IPC机制(7篇)
+- 03.View原理(9篇)
 - 04.动画机制(2篇)
-- 05.View事件(9篇)
-- 06.消息机制(6篇)
-- 07.多媒体(9篇)
-- 08.View事件(4篇)
-- 09.多线程(4篇)
-- 10.Window(11篇)
+- 05.Res资源(6篇)
+- 06.消息机制(12篇)
+- 07.多媒体(16篇)
+- 08.View事件(9篇)
+- 09.多线程(12篇)
+- 10.Window(19篇)
 - 11.WebView(4篇)
 - 12.网络相关(7篇)
-- 13.注解(13篇)
+- 13.注解(14篇)
 - 14.音视频(13篇)
-- 15.优化相关(8篇)
-- 16.设计模式(4篇)
-- 20.零碎笔记(12篇)
-- 21.kotlin学习(13篇)
-- 22.源码分析(11篇)
+- 15.优化相关(19篇)
+- 16.流行框架(23篇)
+- 17.数据处理(9篇)
+- 18.framwork
+- 19.复杂控件(16篇)
+- 20.Bug管理(6篇)
+- 21.经典总结(16篇)
 - 23.架构技术(13篇)
-- 25.RecyclerView(25篇)
+- 24.kotlin(29篇)
+- 25.RecyclerView(31篇)
+- 26.组件化(7篇)
+- 27.路由框架(7篇)
 - **阅读更多请点击：[Android博客大汇总](https://github.com/yangchong211/YCBlogs/blob/master/blog/02.Android%E5%8D%9A%E5%AE%A2%E5%A4%A7%E6%B1%87%E6%80%BB.md)**
 
 
@@ -93,7 +101,8 @@
 - [17.自定义进度条](https://github.com/yangchong211/YCProgress)
 - [18.自定义折叠和展开布局](https://github.com/yangchong211/YCExpandView)
 - [19.商品详情页分页加载](https://github.com/yangchong211/YCShopDetailLayout)
-- [20.可以设置在View控件上红点数字控件](https://github.com/yangchong211/YCRedDotView)
+- [20.在任意View控件上设置红点控件](https://github.com/yangchong211/YCRedDotView)
+- [21.仿抖音一次滑动一个页面播放视频库](https://github.com/yangchong211/YCScrollPager)
 
 
 
@@ -104,35 +113,36 @@
 
 
 ### [05.技术问题整理](https://github.com/yangchong211/YCBlogs/blob/master/blog/05.%E6%8A%80%E6%9C%AF%E9%97%AE%E9%A2%98%E6%B1%87%E6%80%BB.md)
-- [01.Java问题大整理](https://github.com/yangchong211/YCBlogs/blob/master/blog/12.Java%E9%97%AE%E9%A2%98%E5%A4%A7%E6%B1%87%E6%80%BB.md)
-    - [01.Java基础问题(19个)](https://juejin.im/post/5c209718e51d451be35e3e70)
-    - [02.Java面向对象问题(10个)](https://juejin.im/post/5c209ae46fb9a049e12a382a)
-    - [03.Java数据结构问题(20个)](https://juejin.im/post/5c20bbb7e51d4549ef17baac)
-    - [04.JavaIO流问题(6个)](https://juejin.im/post/5c20c0ece51d454ad55f27e0)
-    - [05.java多线程问题(19)](https://juejin.im/post/5c20c27551882504bd0e6f6d)
-    - [06.Java虚拟机问题(10个)](https://juejin.im/post/5c235468e51d4524384a8492)
-    - [07.Java类加载问题(8个)](https://juejin.im/post/5c2357736fb9a049ab0da953)
-    - [08.Java反射问题(6个)](https://juejin.im/post/5c2358ba6fb9a049a62ca06c)
-    - [10.Java异常问题(9个)](https://juejin.im/post/5c235fa3f265da617464e295)
-- [02.Android问题大整理](https://github.com/yangchong211/YCBlogs/blob/master/blog/05.%E6%8A%80%E6%9C%AF%E9%97%AE%E9%A2%98%E6%B1%87%E6%80%BB.md)
-    - [01.Android之基础组件问题(43个)](https://juejin.im/post/5c32dea5f265da616c65c413)
-    - [02.Android之IPC机制问题(10个)](https://juejin.im/post/5c32dfb5f265da616b10dd6f)
-    - [03.Android之View原理问题(15个)](https://juejin.im/post/5c3430656fb9a049fa0fee42)
-    - [04.Android之动画问题(6个)](https://juejin.im/post/5c3814ea6fb9a049d519b5ba)
-    - [06.Android之消息机制问题(12个)](https://juejin.im/post/5c382534e51d4552701540cc)
-    - [07.Android之多媒体问题(4个)](https://juejin.im/post/5c65284b6fb9a049fe35a8c1)
-    - [08.Android之View事件问题(14个)](https://juejin.im/post/5c6529616fb9a049aa6f9833)
-    - [10.Android之Window问题(23个)](https://juejin.im/post/5cd28407518825358e2e271c)
-    - [13.Android之注解问题(10个)](https://juejin.im/post/5c665c5ae51d450e675331c0)
-    - [25.Android之RecyclerView问题(26个)](https://juejin.im/post/5cce410551882541e40e471d)
-- 03.精品问题技术
-- 04.Python问题整理
+#### 5.1 [01.Java问题大整理](https://github.com/yangchong211/YCBlogs/blob/master/blog/12.Java%E9%97%AE%E9%A2%98%E5%A4%A7%E6%B1%87%E6%80%BB.md)
+- [01.Java基础问题(19个)](https://juejin.im/post/5c209718e51d451be35e3e70)
+- [02.Java面向对象问题(10个)](https://juejin.im/post/5c209ae46fb9a049e12a382a)
+- [03.Java数据结构问题(20个)](https://juejin.im/post/5c20bbb7e51d4549ef17baac)
+- [04.JavaIO流问题(6个)](https://juejin.im/post/5c20c0ece51d454ad55f27e0)
+- [05.java多线程问题(19)](https://juejin.im/post/5c20c27551882504bd0e6f6d)
+- [06.Java虚拟机问题(10个)](https://juejin.im/post/5c235468e51d4524384a8492)
+- [07.Java类加载问题(8个)](https://juejin.im/post/5c2357736fb9a049ab0da953)
+- [08.Java反射问题(6个)](https://juejin.im/post/5c2358ba6fb9a049a62ca06c)
+- [10.Java异常问题(9个)](https://juejin.im/post/5c235fa3f265da617464e295)
+
+
+
+#### 5.2 [02.Android问题大整理](https://github.com/yangchong211/YCBlogs/blob/master/blog/05.%E6%8A%80%E6%9C%AF%E9%97%AE%E9%A2%98%E6%B1%87%E6%80%BB.md)
+- [01.Android之基础组件问题(43个)](https://juejin.im/post/5c32dea5f265da616c65c413)
+- [02.Android之IPC机制问题(10个)](https://juejin.im/post/5c32dfb5f265da616b10dd6f)
+- [03.Android之View原理问题(15个)](https://juejin.im/post/5c3430656fb9a049fa0fee42)
+- [04.Android之动画问题(6个)](https://juejin.im/post/5c3814ea6fb9a049d519b5ba)
+- [06.Android之消息机制问题(12个)](https://juejin.im/post/5c382534e51d4552701540cc)
+- [07.Android之多媒体问题(4个)](https://juejin.im/post/5c65284b6fb9a049fe35a8c1)
+- [08.Android之View事件问题(14个)](https://juejin.im/post/5c6529616fb9a049aa6f9833)
+- [10.Android之Window问题(23个)](https://juejin.im/post/5cd28407518825358e2e271c)
+- [13.Android之注解问题(10个)](https://juejin.im/post/5c665c5ae51d450e675331c0)
+- [25.Android之RecyclerView问题(26个)](https://juejin.im/post/5cce410551882541e40e471d)
 - **阅读更多请点击：[技术问题整理](https://github.com/yangchong211/YCBlogs/blob/master/blog/05.%E6%8A%80%E6%9C%AF%E9%97%AE%E9%A2%98%E6%B1%87%E6%80%BB.md)**
 
 
 
 
-### [06.算法](https://github.com/yangchong211/YCBlogs/blob/master/blog/06.%E7%AE%97%E6%B3%95%E5%A4%A7%E6%B1%87%E6%80%BB.md)
+### [06.数据与算法](https://github.com/yangchong211/YCBlogs/blob/master/blog/06.%E7%AE%97%E6%B3%95%E5%A4%A7%E6%B1%87%E6%80%BB.md)
 - 01.递归和回溯
 - 02.栈
 - 03.链表
@@ -145,6 +155,13 @@
 - 10.字符串
 - 11.数组
 - **阅读更多请点击：[算法](https://github.com/yangchong211/YCBlogs/blob/master/blog/06.%E7%AE%97%E6%B3%95%E5%A4%A7%E6%B1%87%E6%80%BB.md)**
+
+
+### [08.Kotlin学习笔记](https://github.com/yangchong211/YCBlogs/blob/master/blog/08.Kotlin%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)
+- 01.Kotlin基础语法[4篇]
+- 02.Kotlin面向对象[5篇]
+- 03.Kotlin其他知识点[18篇]
+
 
 
 
@@ -183,7 +200,7 @@
 - [32.关于知识付费学习](https://zhuanlan.zhihu.com/p/36241614)
 - [33.关于修养与教养](https://zhuanlan.zhihu.com/p/36242841)
 - [34.关于如何看待加班](https://zhuanlan.zhihu.com/p/36245137)
-- [35.关于女生经济独立](https://zhuanlan.zhihu.com/p/36290299)
+- [35.关于经济独立](https://zhuanlan.zhihu.com/p/36290299)
 - [36.关于社交恐惧](https://zhuanlan.zhihu.com/p/36295540)
 - [37.关于慎独时教养](https://zhuanlan.zhihu.com/p/36298608)
 - [38.关于闲时莫论是非](https://zhuanlan.zhihu.com/p/36303999)
@@ -202,11 +219,21 @@
 - [51.关于网络孝子](https://zhuanlan.zhihu.com/p/60113403)
 - [52.关于技术路线杂谈](https://zhuanlan.zhihu.com/p/60119398)
 - [53.关于如何看待三观](https://zhuanlan.zhihu.com/p/60224540)
+- [54.关于读书杂谈](https://zhuanlan.zhihu.com/p/61473370)
+- [55.关于实在之说](https://zhuanlan.zhihu.com/p/61473692)
+- [56.关于生活聚会](https://zhuanlan.zhihu.com/p/77101294)
+- [57.关于爱与自由](https://zhuanlan.zhihu.com/p/77603015)
+- [58.关于财务平衡](https://zhuanlan.zhihu.com/p/79292905)
 - **关于生活博客更多内容，可以直接看：[生活博客汇总](https://github.com/yangchong211/YCBlogs/blob/master/blog/09.%E7%94%9F%E6%B4%BB%E5%8D%9A%E5%AE%A2%E6%B1%87%E6%80%BB.md)**
 
 
-### [10.喜马拉雅汇总](https://github.com/yangchong211/YCBlogs/blob/master/blog/10.%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85%E6%B1%87%E6%80%BB.md)
-- 更多可以看：[喜马拉雅汇总](https://github.com/yangchong211/YCBlogs/blob/master/blog/10.%E5%96%9C%E9%A9%AC%E6%8B%89%E9%9B%85%E6%B1%87%E6%80%BB.md)
+### [10.设计模式笔记](https://github.com/yangchong211/YCBlogs/blob/master/blog/19.%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E6%B1%87%E6%80%BB.md)
+- 01.设计模式导读(6篇)
+- 02.行为型模式(17篇)
+- 03.创建型模式(14篇)
+- 04.结构型模式(16篇)
+- 05.面向对象思想(9篇)
+- 06.代码设计原则(11篇)
 
 
 
@@ -231,7 +258,22 @@
 
 ### [12.Flutter博客汇总]()
 - 这段时间在学习flutter，并且业余时间完成了flutter版本的wanAndroid客户端，感兴趣朋友可以看：[flutter版本的wanAndroid客户端](https://github.com/yangchong211/ycflutter)
-- 待更新中，预计1个月内完成，
+- 01.基础笔记
+- 02.基础控件
+- 03.复杂控件
+- 04.线程机制
+- 05.动画机制
+- 06.资源使用
+- 07.事件处理
+- 08.音视频
+- 09.数据存储
+- 10.混合开发
+- 11.自定义控件
+- 12.源码分析
+- 13.WebView
+- 14.优化调试
+- 15.网络请求
+- 16.问题汇总
 
 
 
@@ -249,12 +291,8 @@
 
 
 ### 14.关于其他介绍
-#### 关于其他内容介绍
+#### 00.关于其他内容介绍
 ![image](https://upload-images.jianshu.io/upload_images/4432347-7100c8e5a455c3ee.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
-
-#### 参考链接
-- 具体可以看参考链接这篇文章：
 
 
 #### 01.关于博客汇总链接
@@ -281,9 +319,18 @@
 
 
 
-### 03.勘误及提问
+#### 03.勘误及提问
 - 如果有疑问或者发现错误，可以在相应的 issues 进行提问或勘误。
 - 如果喜欢或者有所启发，欢迎star，对作者也是一种鼓励。除了部分已经投递过公众号外的文章，转载麻烦注明出处。
 
+
+
+#### 04.关于书籍推荐
+- [关于书籍推荐链接](https://github.com/yangchong211/YCBlogs/blob/master/blog/16.%E5%85%B3%E4%BA%8E%E4%B9%A6%E7%B1%8D%E6%8E%A8%E8%8D%90.md)
+    - 1.Java方面书籍
+    - 2.Android方法书籍
+    - 3.网络协议书籍
+    - 4.数据结构与算法
+    - 5.flutter书籍
 
 
